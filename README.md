@@ -1,21 +1,22 @@
 # Name Sorter
 
 ## Introduction
-This is a .NET Core Console Application that sorts a list of names by last name, then by given name. 
+This is a .NET Core Console Application that sorts a list of names by last name, then by given names. 
 A name must have at least 1 given name and may have up to 3 given names.
 
 ## Installation
-1. Steps to install the project
+Steps to install the project
 1. Deploy the project by right-click on the NameSorter project in Solution Explorer and select Publish.
-1. The resulting files are placed in a directory named Publish that is in a subdirectory of your project's .\bin\release\net8.0 subdirectory.
+1. The resulting files are placed in a directory named Publish that is in a subdirectory of your project's .\bin\release\net8.0 subdirectory
 1. Deploy the complete set of application files in any way you like. For example, you can package them in a Zip file, use a simple copy command, or deploy them with any installation package of your choice.
+1. The build pipe line are also setup in AppVeyor. The application package zip file can be downloaded in the Artifacts.
 
 ## How to run the application
-Executing the program in the following way;
+Executing the program in the following way
 name-sorter ./unsorted-names-list.txt
 
 ## Example Usage
-Given a a file called unsorted-names-list.txt containing the following list of names;
+Given a a file called unsorted-names-list.txt containing the following list of names
 1. Janet Parsons
 1. Vaughn Lewis
 1. Adonis Julius Archer
@@ -28,7 +29,7 @@ Given a a file called unsorted-names-list.txt containing the following list of n
 1. Mikayla Lopez
 1. Frankie Conner Ritter
 
-The result the sorted names will be;
+The result the sorted names will be
 1. Marin Alvarez
 1. Adonis Julius Archer
 1. Beau Tristan Bentley
