@@ -4,3 +4,9 @@
 /.vs
 /bin
 /obj
+/NameSorter/bin
+/NameSorter/bin/Debug/net8.0
+/Test/bin
+/Test/bin/Debug/net8.0
+/Test/obj
+/NameSorter/obj
